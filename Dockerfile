@@ -5,7 +5,7 @@ run echo "deb http://archive.ubuntu.com/ubuntu quantal main universe" > /etc/apt
 run apt-get update
 run apt-get upgrade -y
 
-run apt-get install curl wget openssh-server python tmux python-dev git vim znc irssi supervisor -y
+run apt-get install curl wget openssh-server python tmux python-dev git vim supervisor -y
 
 run mkdir -p /var/run/sshd
 run mkdir -p /var/log/supervisor
